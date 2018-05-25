@@ -1,0 +1,1 @@
+This is the python script program developed for Bloomberg CodeB hackathon 2018

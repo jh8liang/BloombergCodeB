@@ -190,8 +190,4 @@ def main():
                         sock.send(bytes("\nACCELERATE " + str(temp) + " 1 \n", "utf-8"))
                         print(sock.recv(4096).decode("utf-8"))
                         break
-
-
-
-
 main();
