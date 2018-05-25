@@ -143,21 +143,6 @@ def main():
                     print (math.degrees(math.acos(newDir.x / newAcc)))
                     print (str(myCoord.x) + " " + str(myCoord.y) + ", " + str(newDir.x) + " " + str(newDir.y))
                     print(mines[mineCount].x + " " + mines[mineCount].y)
-
-                    """if myCoord.x < float(mines[mineCount].x) and myCoord.y < float(mines[mineCount].y):
-                        temp = math.pi + math.acos(newDir.x / newAcc)
-                        print("SSSSS")
-                    elif myCoord.x < float(mines[mineCount].x):
-                        temp = math.pi - math.acos(newDir.x / newAcc)
-                        print("TTTTT")
-
-                    elif float(mines[mineCount].y) > myCoord.y:
-                        temp = 2 * math.pi - math.acos(newDir.x / newAcc)
-                        print("AAAA")
-
-                    else:
-                        temp = math.acos(newDir.x / newAcc)
-                        print("CCCC")"""
                     if newDir.x >= 0 and newDir.y <= 0:
                         temp = 2 * math.pi - math.acos(newDir.x / newAcc)
                         print("AAAA")
